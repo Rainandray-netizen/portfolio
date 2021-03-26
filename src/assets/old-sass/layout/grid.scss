@@ -1,0 +1,15 @@
+.skills-grid-container{
+  margin: 0 25vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+}
+
+.skills-tile{
+  height: 12.5vw;
+  width: 12.5vw;
+  flex-direction: column;
+  h4{
+    margin-top: 1rem;
+  }
+}

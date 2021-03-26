@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Righteous-Regular';
+  src: url('../fonts/righteous/Righteous-Regular.eot');
+  src: url('../fonts/righteous/Righteous-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/righteous/Righteous-Regular.svg#Righteous-Regular') format('svg'),
+       url('../fonts/righteous/Righteous-Regular.ttf') format('truetype'),
+       url('../fonts/righteous/Righteous-Regular.woff') format('woff'),
+       url('../fonts/righteous/Righteous-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('../fonts/press_start_2p/PressStart2P.eot');
+  src: url('../fonts/press_start_2p/PressStart2P.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/press_start_2p/PressStart2P.svg#PressStart2P') format('svg'),
+       url('../fonts/press_start_2p/PressStart2P.ttf') format('truetype'),
+       url('../fonts/press_start_2p/PressStart2P.woff') format('woff'),
+       url('../fonts/press_start_2p/PressStart2P.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Regular';
+  src: url('../fonts/rubik/rubik-regular/Rubik-Regular.eot');
+  src: url('../fonts/rubik/rubik-regular/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/rubik/rubik-regular/Rubik-Regular.svg#Rubik-Regular') format('svg'),
+       url('../fonts/rubik/rubik-regular/Rubik-Regular.ttf') format('truetype'),
+       url('../fonts/rubik/rubik-regular/Rubik-Regular.woff') format('woff'),
+       url('../fonts/rubik/rubik-regular/Rubik-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html{
+  font-size: 16px;
+  font-family: 'Rubik-Regular';
+}
+
+
+h1{
+  font-family: 'Righteous-Regular';
+  font-size: 5rem;
+}
+
+h2{
+  font-family: 'Righteous-Regular';
+  font-size: 2.5rem;
+}
+
+h3{
+  font-family: 'Righteous-Regular';
+  font-size: 2rem;
+}
+
+h4{
+  font-family: 'Righteous-Regular';
+  font-size: 1.5rem;
+}
+
+h5{
+  font-family: 'PressStart2P';
+  font-size: 2.5rem;
+}
+
+h6{
+  font-family: 'PressStart2P';
+  font-size: 1.5rem;
+}

@@ -1,0 +1,19 @@
+.about-card-wrapper{
+  padding: 5rem 3rem;
+  background-color: #2C3539;
+  height: fit-content;
+  width: 80%;
+}
+
+.transition{
+  height: fit-content;
+  background-image: linear-gradient(rgba(30,30,30,0),black);
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width:641px){
+  .about-card-wrapper{
+    width:50%;
+  }
+}
