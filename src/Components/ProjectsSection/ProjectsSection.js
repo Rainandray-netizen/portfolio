@@ -5,7 +5,8 @@ import ProjectCard from './ProjectCard'
 const ProjectsSection = () => {
 
   return(
-    <section>
+    <section className='projects-container'>
+      <h1>My Projects</h1>
       {projectData.map((project)=>{ 
         return(
           <ProjectCard project={project}/>

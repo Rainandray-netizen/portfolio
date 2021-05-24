@@ -1,8 +1,57 @@
 .card-wrapper{
   width: 75%;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 3px solid grey;
-  border-radius: 16px;
+  background-color: lightslategrey;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 5rem;
+
+
+  hr{
+    margin-right: 2rem;
+    border: solid black .5px;
+  }
+
+  h3{
+    color:black;
+  }
+
+  p{
+    color:black;
+    margin-bottom: 1rem;
+  }
+
+  img{
+    width: 24rem;
+    margin: 1rem;
+    border: solid .5px grey;
+  }
+
+  @media screen and (min-width:641px){
+    
+    flex-direction: row;
+    img{
+      width: 30rem;
+    }
+  }
+  
+  @media screen and (min-width:1281px){
+    
+  }
+}
+
+.tech-used{
+  text-decoration: underline;
+}
+
+.projects-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0;
+
 }

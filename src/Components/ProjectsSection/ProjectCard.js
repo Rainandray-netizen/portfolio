@@ -5,11 +5,12 @@ const ProjectCard = ({project}) => {
   // console.log(project)
   return(
     <div className='card-wrapper'>
-      <p>{image}</p>
+      <img className='project-image' src={image}/>
       <div>
         <h3>{title}</h3>
         <hr />
         <p>{desc}</p>
+        <p className='tech-used'>Technologies Used:</p>
         <p>{technologies}</p>
       </div>
     </div>
